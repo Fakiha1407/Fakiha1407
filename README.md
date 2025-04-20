@@ -1,16 +1,61 @@
 ## Hi there 👋
 
-<!--
-**Fakiha1407/Fakiha1407** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Fakiha Balouch!
 
-Here are some ideas to get you started:
+🎓 I'm a Master's student in Data Science at FAU Erlangen-Nürnberg (Germany)
+💼 Ex-QA at CareCloud Inc | 
+🔍 Passionate about NLP, AI, Machine learning, and Data Analytics
+🌍 Exploring the intersection of technology, multilingualism, and inclusive design
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💻 Tech Stack
+
+Languages: Python | SQL | R (basic)
+
+Libraries: pandas | numpy | matplotlib | seaborn | scikit-learn | nltk | textblob | wordcloud
+
+Tools: Jupyter Notebook | GitHub | VS Code | SQLite | DuckDB
+
+Currently exploring: DeepL API | Polyglot | sentiment analysis across languages
+
+📁 Projects
+
+📍 Introvert-Friendly Location Recommender (In Progress) Recommending peaceful and cozy spots in Nuremberg for introverts using Google Maps API + ML scoring logic
+→ Features: custom scoring, user feedback loop, personality-aligned suggestions
+→ Tech: Python, Pandas, Geolocation APIs, Jupyter
+
+🧠 Multilingual Chatbot for Parents (Upcoming) Mobile AI chatbot to support parents navigating multilingual education using translation and sentiment detection
+→ Vision: Support in German, Urdu, Hindi, Turkish, Arabic, and English
+→ AI Goals: Real-time translation with DeepL + emotional tone understanding
+→ Focus: Educational guidance, cultural sensitivity, trust via scientific citation
+
+📊 Customer Segmentation using KMeans Clustering customer personas for targeted marketing strategies
+→ Tech: scikit-learn, pandas, matplotlib
+→ Repo: KMeans-Customer-Segmentation
+
+📈 Twitter Sentiment Analyzer
+Performed sentiment analysis on tweets using NLTK and TextBlob
+→ Use case: Understanding public opinion trends and emotional tone
+→ Tools: NLTK, TextBlob, WordCloud
+→ Repo: Twitter-Sentiment-Analysis
+
+📦 Mini Data Warehouse with SQL Sales and customer analytics project using DuckDB inside Jupyter
+→ Focus: KPIs, churn risk, revenue tracking
+→ Repo: Mini-Data-Warehouse-SQL
+
+📣 Marketing Campaign Analytics Campaign performance insights with SQL (Jupyter + SQLite)
+→ Skills: Joins, CTEs, aggregation
+→ Repo: Marketing-SQL-Insights
+
+📌 Fun Stuff
+🔄 Building tools that feel friendly, accessible, and useful
+
+💬 Fluent in English | Learning German (A2)
+
+✨ Believe in human-centered, research-driven AI
+
+📫 Connect With Me
+
+LinkedIn: https://www.linkedin.com/in/fakiha-balouch-00bb64160/
+
+GitHub:  https://github.com/Fakiha1407
+🚀 Always learning. Always building. Always sharing.

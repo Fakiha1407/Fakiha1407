@@ -44,7 +44,7 @@ Performed sentiment analysis on tweets using NLTK and TextBlob
 
 📣 Marketing Campaign Analytics Campaign performance insights with SQL (Jupyter + SQLite)
 → Skills: Joins, CTEs, aggregation
-→ Repo: Marketing-SQL-Insights
+→ Repo: Marketing-Campaign-Analytics
 
 📌 Fun Stuff
 🔄 Building tools that feel friendly, accessible, and useful

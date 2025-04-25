@@ -11,7 +11,7 @@ I'm Fakiha Balouch!
 
 Languages: Python | SQL | R (basic)
 
-Libraries: pandas | numpy | matplotlib | seaborn | scikit-learn | nltk | textblob | wordcloud
+Libraries: pandas | numpy | matplotlib | seaborn | scikit-learn | nltk | textblob | wordcloud | tenserflow
 
 Tools: Jupyter Notebook | GitHub | VS Code | SQLite | DuckDB
 
@@ -31,6 +31,11 @@ Currently exploring: DeepL API | Polyglot | sentiment analysis across languages
 📊 Customer Segmentation using KMeans Clustering customer personas for targeted marketing strategies
 → Tech: scikit-learn, pandas, matplotlib
 → Repo: KMeans-Customer-Segmentation
+
+🧠 Handwritten Digit Recognition – Python, TensorFlow, Keras, NumPy
+- Built a CNN model to classify handwritten digits from the MNIST dataset.
+- Applied data augmentation techniques (rotation, zoom, shifting) to improve model generalization.
+- Achieved 98%+ accuracy and evaluated performance using confusion matrix and classification report.
 
 📈 Twitter Sentiment Analyzer
 Performed sentiment analysis on tweets using NLTK and TextBlob

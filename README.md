@@ -4,8 +4,8 @@ I'm Fakiha Balouch!
 
 🎓 I'm a Master's student in Data Science at FAU Erlangen-Nürnberg (Germany)
 💼 Ex-QA at CareCloud Inc | 
-🔍 Passionate about NLP, AI, Machine learning, and Data Analytics
-🌍 Exploring the intersection of technology, multilingualism, and inclusive design
+🔍 Passionate about NLP, AI, Machine learning,Computer Vision and Data Analytics
+🌍 Exploring the intersection of technology, multilingualism, and Computer  Vision
 
 💻 Tech Stack
 

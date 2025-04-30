@@ -4,8 +4,8 @@ I'm Fakiha Balouch!
 
 🎓 I'm a Master's student in Data Science at FAU Erlangen-Nürnberg (Germany)
 💼 Ex-QA at CareCloud Inc | 
-🔍 Passionate about NLP, AI, Machine learning,Computer Vision and Data Analytics
-🌍 Exploring the intersection of technology, multilingualism, and Computer  Vision
+🔍 Passionate about NLP, AI, Machine learning, Computer Vision and Data Analytics
+🌍 Exploring the intersection of technology, multilingualism, and technology
 
 💻 Tech Stack
 
@@ -32,10 +32,9 @@ Currently exploring: DeepL API | Polyglot | sentiment analysis across languages
 → Tech: scikit-learn, pandas, matplotlib
 → Repo: KMeans-Customer-Segmentation
 
-🧠 Handwritten Digit Recognition – Python, TensorFlow, Keras, NumPy
-- Built a CNN model to classify handwritten digits from the MNIST dataset.
-- Applied data augmentation techniques (rotation, zoom, shifting) to improve model generalization.
-- Achieved 98%+ accuracy and evaluated performance using confusion matrix and classification report.
+🧠 Handwritten Digit Recognition: Achieved 98%+ accuracy on MNIST using a CNN with TensorFlow, Keras, and data augmentation techniques..
+
+📊 Crowd Detection System using YOLOv8 and OpenCV: Developed a real-time crowd detection system integrated with a location recommender to dynamically adjust place scores based on crowd density – Repo: Crowd-Detection-YOLOv8.
 
 📈 Twitter Sentiment Analyzer
 Performed sentiment analysis on tweets using NLTK and TextBlob

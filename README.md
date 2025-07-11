@@ -15,7 +15,7 @@ Libraries: pandas | numpy | matplotlib | seaborn | scikit-learn | nltk | textblo
 
 Tools: Jupyter Notebook | GitHub | VS Code | SQLite | DuckDB
 
-Currently exploring: DeepL API | Polyglot | sentiment analysis across languages
+Currently exploring: Self-Supervised Learning | Entity Recognition | Text Recognition
 
 📁 Projects
 
@@ -23,10 +23,12 @@ Currently exploring: DeepL API | Polyglot | sentiment analysis across languages
 → Features: custom scoring, user feedback loop, personality-aligned suggestions
 → Tech: Python, Pandas, Geolocation APIs, Jupyter
 
-🧠 Multilingual Chatbot for Parents (Upcoming) Mobile AI chatbot to support parents navigating multilingual education using translation and sentiment detection
-→ Vision: Support in German, Urdu, Hindi, Turkish, Arabic, and English
-→ AI Goals: Real-time translation with DeepL + emotional tone understanding
-→ Focus: Educational guidance, cultural sensitivity, trust via scientific citation
+🧠 Image Restoration with Autoencoders and SwinIR (In Progress)
+|Python, TensorFlow, SwinIR|
+•	Building an image restoration pipeline combining convolutional autoencoders and SwinIR to enhance image clarity through attention-based
+🧠 Entity Recognition using Masked Autoencoders (MAE) (In Progress)
+|Python, HuggingFace, MAE, COCO Dataset|
+Implementing a masked autoencoder-based entity recognition system on object-level datasets using the COCO dataset; pretraining in progress to enhance F1-score and contextual understanding.
 
 📊 Customer Segmentation using KMeans Clustering customer personas for targeted marketing strategies
 → Tech: scikit-learn, pandas, matplotlib

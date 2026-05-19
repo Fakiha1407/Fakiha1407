@@ -1,58 +1,90 @@
-# Hi, I'm Fakiha Balouch 👋
+Hi, I'm Fakiha Balouch 👋
 
-🎓 Master's student in Data Science at FAU Erlangen–Nürnberg (Germany)  
-💼 Former QA Analyst at CareCloud Inc. | Working Student at GFZ Potsdam  
-🔍 Interested in Applied AI, Computer Vision, Machine Learning, and Data Analytics
+🎓 M.Sc. Data Science — FAU Erlangen-Nürnberg, Germany
+💼 Former Working Student @ GFZ Potsdam | QA Analyst @ CareCloud Inc.
+🔍 Applied AI · LLM Engineering · ML Pipelines · Enterprise Analytics
 
-I enjoy building AI-driven solutions that combine real-world data, research-oriented modeling, and practical impact — from predictive maintenance pipelines to financial fraud analytics systems.
+I build AI systems that work in production — not just in notebooks.
+Currently focused on enterprise LLM evaluation and intelligent 
+model routing for real-world workflows.
 
-## 🛠 Tech Stack
+---
 
-**Languages:** Python | SQL | R (basic)  
-**Libraries & Frameworks:** pandas | NumPy | scikit-learn | TensorFlow | PyTorch | OpenCV | Matplotlib | XGBoost  
-**Computer Vision & AI:** YOLOv8 | SwinIR | Masked Autoencoders (MAE) | Feature Extraction  
-**Tools:** Git/GitHub | Jupyter Notebook | Power BI | Tableau | Excel | SQLite | PostgreSQL  
+🛠 Tech Stack
 
-## 📌 Featured Projects
+Languages:        Python · SQL · R (basic)
+ML & AI:          scikit-learn · TensorFlow · PyTorch · XGBoost
+LLM & NLP:        FastAPI · Groq SDK · Cerebras SDK · Mistral API ·
+                  sentence-transformers · HuggingFace Transformers · BERTScore
+Computer Vision:  YOLOv8 · SwinIR · OpenCV · Pillow
+Data:             pandas · NumPy · SQLite · PostgreSQL · SQLAlchemy
+Visualisation:    Power BI · Tableau · Matplotlib · Streamlit
+Infrastructure:   Docker · Git/GitHub · Jupyter · asyncio · httpx
 
-### 🔹 [Predictive Maintenance — Industrial Equipment](https://github.com/Fakiha1407/Predictive-Maintaince-industrial)
-Built an end-to-end ML pipeline on the AI4I 2020 dataset (10,000 records) to predict industrial equipment failure before it occurs. Achieved **ROC-AUC of 0.97** with a Random Forest classifier. Includes EDA, feature engineering, model evaluation, and a Power BI dashboard with 4 interactive visuals and slicers.  
-**Tech:** Python · scikit-learn · Random Forest · Pandas · Matplotlib · Power BI
+---
 
-### 🔹 [Financial Fraud Analytics — PaySim Dataset](https://github.com/Fakiha1407/Financial_Fraud_Analytics)
-Analysed 6.3 million synthetic financial transactions to identify fraud patterns using advanced SQL and Python. Built a local SQLite database and wrote 5 analytical queries using CTEs, RANK(), LAG() with PARTITION BY, rolling window averages, and balance drain anomaly detection. Fraud occurs exclusively in TRANSFER and CASH_OUT transactions with a clear balance-drain signature.  
-**Tech:** Python · SQLite · Advanced SQL · pandas · Matplotlib · Seaborn
+📌 Featured Projects
 
-### 🔹 Image Restoration with SwinIR + Downstream Object Detection
-Building a two-stage pipeline where degraded images are first restored using SwinIR and then processed for object detection tasks.  
-**Tech:** Python · TensorFlow · SwinIR · YOLOv8
+🔹 LLM Comparison API — Multi-Provider Enterprise Benchmark
+github.com/Fakiha1407/llm-comparison-api
 
-### 🔹 Crowd Analytics in Surveillance Video using YOLOv8
-Developed a real-time crowd detection system for surveillance footage, supporting adaptive scoring for intelligent location recommendations.  
-**Tech:** Python · OpenCV · YOLOv8
+Benchmarking framework evaluating 5 commercial LLM providers 
+simultaneously across latency, cost, quality, and consistency.
+Built with FastAPI + async parallel calls. Two endpoints:
+/compare — single-call comparison across all providers
+/consistency — 3-run semantic similarity scoring using 
+sentence-transformers and cosine similarity
 
-### 🔹 Introvert-Friendly Location Recommender
-Designed a recommendation system that suggests calm places by estimating crowd density through computer vision and scoring logic. Achieved 40% improvement in recommendation relevance.  
-**Tech:** Python · Pandas · Google Maps API · YOLOv8
+Key finding: Cerebras GPT-OSS 120B was fastest in single call 
+(741ms) but failed consistency threshold (score 0.79, variance 
+1207ms) — only detectable through multi-run testing.
 
-### 🔹 Airbnb Market Analysis – Berlin
-Analyzed 20,000+ Airbnb listings and created Tableau dashboards to identify pricing trends and host performance insights.  
-**Tech:** Python · Tableau
+Tech: Python · FastAPI · Groq · Cerebras · Mistral · 
+      sentence-transformers · asyncio · Docker · SQLite
 
-### 🔹 Customer Review Sentiment Analysis
-Classified 20,000+ reviews using sentiment analysis and visualised keyword trends for customer insights.  
-**Tech:** Python · TextBlob · scikit-learn · Matplotlib
+---
 
-## 💼 Experience Highlights
+🔹 Customer Churn Predictor — Live Deployed App
+Deployed XGBoost classifier with ROC-AUC 0.836. Real-time 
+inference, risk tier classification, retention recommendations.
+Tech: Python · XGBoost · Streamlit · scikit-learn · Docker
 
-**Working Student – Talent Management & DEI | GFZ Potsdam**  
-Conducted survey analysis, KPI reporting, and built automated absence review workflows using Python and pandas to support data-driven HR strategy.
+🔹 Predictive Maintenance — Industrial ML Pipeline
+End-to-end pipeline on AI4I 2020 dataset. ROC-AUC 0.97.
+Power BI dashboard with 4 interactive visuals.
+Tech: Python · Random Forest · scikit-learn · Power BI
 
-**QA Data Analyst – CareCloud Inc.**  
-Tested SQL-based workflows, validated ETL pipelines, and improved data integrity in healthcare systems.
+🔹 Financial Fraud Analytics — 6.3M Transactions
+Advanced SQL pipeline on PaySim dataset. CTEs, window functions,
+LAG() with PARTITION BY, anomaly detection.
+Tech: Python · SQLite · Advanced SQL · pandas
 
-## 🌍 Languages
-English (C1) | German (A2, actively improving) | Urdu (C1)
+🔹 Image Restoration + Object Detection Pipeline
+Two-stage deep learning pipeline: SwinIR restoration → YOLOv8 
+detection. Structured evaluation with PSNR/SSIM metrics.
+Tech: Python · TensorFlow · SwinIR · YOLOv8
+
+🔹 Crowd Analytics in Surveillance Video
+Real-time crowd detection and density analysis on video streams.
+Tech: Python · YOLOv8 · OpenCV
+
+---
+
+💼 Experience
+
+Working Student — Data Science & Analytics
+GFZ German Research Centre for Geosciences · Jul 2025–Feb 2026
+DEI reporting, HR analytics, Python automation pipelines.
+
+QA Data Analyst
+CareCloud Inc. · Aug 2022–May 2023
+SQL workflow testing, ETL validation, 40% reduction in 
+data discrepancies through scripted automation.
+
+---
+
+🌍 Languages
+English (C1) · German (A2, actively improving) · Urdu (C1)
 
 
 ## 📫 Connect with Me

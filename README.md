@@ -1,6 +1,6 @@
 Hi, I'm Fakiha Balouch 👋
 
-🎓 M.Sc. Data Science — FAU Erlangen-Nürnberg, Germany
+🎓 M.Sc. Data Science , FAU Erlangen-Nürnberg, Germany
 💼 Former Working Student @ GFZ Potsdam | QA Analyst @ CareCloud Inc.
 🔍 Applied AI · LLM Engineering · ML Pipelines · Enterprise Analytics
 

@@ -31,13 +31,13 @@ github.com/Fakiha1407/llm-comparison-api
 Benchmarking framework evaluating 5 commercial LLM providers 
 simultaneously across latency, cost, quality, and consistency.
 Built with FastAPI + async parallel calls. Two endpoints:
-/compare — single-call comparison across all providers
-/consistency — 3-run semantic similarity scoring using 
+/compare , single-call comparison across all providers
+/consistency ,3-run semantic similarity scoring using 
 sentence-transformers and cosine similarity
 
 Key finding: Cerebras GPT-OSS 120B was fastest in single call 
 (741ms) but failed consistency threshold (score 0.79, variance 
-1207ms) — only detectable through multi-run testing.
+1207ms) : only detectable through multi-run testing.
 
 Tech: Python · FastAPI · Groq · Cerebras · Mistral · 
       sentence-transformers · asyncio · Docker · SQLite
